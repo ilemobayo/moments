@@ -1,0 +1,120 @@
+/****this set the speech bubble for the sender and reciever******/
+/******LEFT BUBBLE*******/
+.bubble_left, #sender
+{
+position: relative;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+border: thin solid #c0c0c0;
+}
+/********
+.bubble_left:after, #sender:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 12px 7px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+margin-top: -8px;
+left: -12px;
+top: 12px;
+}
+
+.bubble_left:before, #sender:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 12px 7px 0;
+border-color: transparent #7F7F7F;
+display: block;
+width: 0;
+z-index: 0;
+margin-top: -8px;
+left: -13px;
+top: 12px;
+}
+********/
+/*******************************/
+/******LEFT BUBBLE*********/
+.bubble_right, #sender_me
+{
+  position: relative;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	//border: 1px solid #d0d0d0;
+}
+/**********
+.bubble_right:after, #sender_me:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 0 7px 12px;
+border-color: transparent #87cefa;
+display: block;
+width: 0;
+z-index: 1;
+margin-top: -8px;
+right: -10px;
+top: 12px;
+}
+
+.bubble_right:before, #sender_me:before
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 7px 0 7px 12px;
+border-color: transparent #7F7F7F;
+display: block;
+width: 0;
+z-index: 0;
+margin-top: -8px;
+right: -11px;
+top: 12px;
+}
+********/
+/***********************************/
+/****** the message time********/
+#sender_time_me{
+		position: relative;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		font-size: 90%;
+		color: #000000;
+		float: right;
+		width: auto;
+		max-width: 70%;
+		margin-left:2%;
+		margin-top:0%;
+		margin-right: 4%;
+		word-wrap: break-word;
+		font-family:courier;
+		opacity: 0.8;
+		padding: 0.5%;
+		border-radius: 5px;
+}
+
+#sender_time{
+		position: relative;
+		font-size: 90%;
+		color: #000000;
+		float: left;
+		width: auto;
+		max-width: 70%;
+		margin-left: 4%;
+		margin-top:0%;
+		margin-right: 4%;
+		word-wrap: break-word;
+		font-family:courier;
+		background-color: #ffffff;
+		padding: 0.5%;
+		border-radius: 5px;
+}
